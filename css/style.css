@@ -1,0 +1,240 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  /*font-family: 'Slabo 27px', serif;*/
+}
+
+#fp-hero h1 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+#fp-hero h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+#fp-hero {
+  height: 100vh;
+  position: relative;
+  color: white;
+  text-align: center;
+}
+
+#fp-hero .image-overlay-text {
+  height: calc(100% - 58px);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 3;
+  margin: 0 1rem;
+}
+
+.hero-image {
+  background-image: url('http://www.placehold.it/300x300');
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: calc(100% - 58px);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.elixir {
+  background-image: url('/images/elixir.png');
+}
+
+.javascript {
+  background-image: url('/images/javascript.png');
+}
+.phoenix {
+  background-image: url('/images/phoenix.png');
+}
+.react {
+  background-image: url('/images/react.png');
+}
+
+.div-image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tag {
+  margin: 1rem;
+  width: 75px;
+  height: 75px;
+  border-radius: 250px;
+  border: 1px solid black;
+}
+
+.me {
+  background-image: url('/images/me.jpg');
+}
+
+.programming {
+  background-image: url('/images/programming.png');
+}
+
+.family {
+  background-image: url('/images/family.png');
+}
+
+.football {
+  background-image: url('/images/football.png');
+}
+
+.gaming {
+  background-image: url('/images/gaming.png');
+}
+
+.training {
+  background-image: url('/images/training.png');
+}
