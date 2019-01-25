@@ -1,33 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Robin Tollisen" />
-  <meta name="author" content="Robin Tollisen">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Robin Tollisen" />
+    <meta name="author" content="Robin Tollisen" />
 
-  <title>tollisen</title>
-  <link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
-<section id="fp-hero">
-  <div class="hero-image"></div>
-  <div class="image-overlay-text"><h1>I'm a software developer</h1><h2>Currently working for Schibsted Products and Technology in Kristiansand, Norway</h2></div>
-    <div class="hero-bottom flex flex-center limit">
-      <div class="div-image tag me"></div>
-      <div class="div-image tag programming"></div>
-      <div class="div-image tag gaming"></div>
-      <div class="div-image tag family"></div>
-      <div class="div-image tag football"></div>
-      <div class="div-image tag training"></div>
-      <div class="div-image tag elixir"></div>
-      <div class="div-image tag phoenix"></div>
-      <div class="div-image tag javascript"></div>
-      <div class="div-image tag react"></div>
-    </div>
-  </div>
-</section>
-<script src="/src/test.js"></script>
-</body>
+    <title>tollisen</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <section id="fp-hero">
+      <div id="top">
+        <div id="image" class="hero-image"></div>
+        <div id="content" class="image-overlay-text">
+          <h1>I'm a software developer</h1>
+          <h2>
+            Currently working for Schibsted Products and Technology in
+            Kristiansand, Norway
+          </h2>
+        </div>
+      </div>
+      <div id="bottom">
+        <div class="hero-bottom flex flex-center limit">
+          <div data-subject="me" class="div-image tag me"></div>
+          <div data-subject="education" class="div-image tag programming"></div>
+          <div data-subject="work" class="div-image tag programming"></div>
+          <div data-subject="family" class="div-image tag family"></div>
+          <div data-subject="gaming" class="div-image tag gaming"></div>
+          <div data-subject="football" class="div-image tag football"></div>
+          <div data-subject="training" class="div-image tag training"></div>
+          <div data-subject="elixir" class="div-image tag elixir"></div>
+          <div data-subject="phoenix" class="div-image tag phoenix"></div>
+          <div data-subject="javascript" class="div-image tag javascript"></div>
+          <div data-subject="react" class="div-image tag react"></div>
+        </div>
+      </div>
+    </section>
+    <script src="/src/test.js"></script>
+  </body>
 </html>
